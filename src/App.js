@@ -394,42 +394,42 @@ class App extends Component {
           </div>
         </div>
         <br/>
-        <table className="table table-striped">
-          <thead className="thead-dark">
-            <tr>
-              <th className="bg-white text-dark text-center text-uppercase border-top-0"><strong><h4>Leaderboard</h4></strong></th>
-              <th className="bg-dark text-center"><h5>Movie</h5></th>
-              <th className="bg-dark text-center"><h5>Votes</h5></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="bg-dark text-white"><strong>Top Loved <i className="fas fa-heart"></i></strong></td>
-              <td className="text-center">{this.state.topLovedMovie}</td>
-              <td className="text-center">{this.state.topLove}</td>
-            </tr>
-            <tr>
-              <td className="bg-dark text-white"><strong>Top Liked <i className="fas fa-grin"></i></strong></td>
-              <td className="text-center">{this.state.topLikedMovie}</td>
-              <td className="text-center">{this.state.topLike}</td>
-            </tr>
-            <tr>
-              <td className="bg-dark text-white"><strong>Top Meh <i className="fas fa-meh"></i></strong></td>
-              <td className="text-center">{this.state.topMehMovie}</td>
-              <td className="text-center">{this.state.topMeh}</td>
-            </tr>
-            <tr>
-              <td className="bg-dark text-white"><strong>Top Unknown <i className="fas fa-question-circle"></i></strong></td>
-              <td className="text-center">{this.state.topUnknownMovie}</td>
-              <td className="text-center">{this.state.topUnknown}</td>
-            </tr>
-            <tr>
-              <td className="bg-dark text-white"><strong>Top Hated <i className="fas fa-angry"></i></strong></td>
-              <td className="text-center">{this.state.topHatedMovie}</td>
-              <td className="text-center">{this.state.topHate}</td>
-            </tr>
-          </tbody>
-        </table>
+        // <table className="table table-striped">
+        //   <thead className="thead-dark">
+        //     <tr>
+        //       <th className="bg-white text-dark text-center text-uppercase border-top-0"><strong><h4>Leaderboard</h4></strong></th>
+        //       <th className="bg-dark text-center"><h5>Movie</h5></th>
+        //       <th className="bg-dark text-center"><h5>Votes</h5></th>
+        //     </tr>
+        //   </thead>
+        //   <tbody>
+        //     <tr>
+        //       <td className="bg-dark text-white"><strong>Top Loved <i className="fas fa-heart"></i></strong></td>
+        //       <td className="text-center">{this.state.topLovedMovie}</td>
+        //       <td className="text-center">{this.state.topLove}</td>
+        //     </tr>
+        //     <tr>
+        //       <td className="bg-dark text-white"><strong>Top Liked <i className="fas fa-grin"></i></strong></td>
+        //       <td className="text-center">{this.state.topLikedMovie}</td>
+        //       <td className="text-center">{this.state.topLike}</td>
+        //     </tr>
+        //     <tr>
+        //       <td className="bg-dark text-white"><strong>Top Meh <i className="fas fa-meh"></i></strong></td>
+        //       <td className="text-center">{this.state.topMehMovie}</td>
+        //       <td className="text-center">{this.state.topMeh}</td>
+        //     </tr>
+        //     <tr>
+        //       <td className="bg-dark text-white"><strong>Top Unknown <i className="fas fa-question-circle"></i></strong></td>
+        //       <td className="text-center">{this.state.topUnknownMovie}</td>
+        //       <td className="text-center">{this.state.topUnknown}</td>
+        //     </tr>
+        //     <tr>
+        //       <td className="bg-dark text-white"><strong>Top Hated <i className="fas fa-angry"></i></strong></td>
+        //       <td className="text-center">{this.state.topHatedMovie}</td>
+        //       <td className="text-center">{this.state.topHate}</td>
+        //     </tr>
+        //   </tbody>
+        // </table>
       </div>
     );
   }
