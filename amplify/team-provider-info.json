@@ -1,0 +1,15 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-realtime-master-163033-authRole",
+            "UnauthRoleArn": "arn:aws:iam::733205283608:role/amplify-realtime-master-163033-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::733205283608:role/amplify-realtime-master-163033-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-realtime-master-163033-deployment",
+            "UnauthRoleName": "amplify-realtime-master-163033-unauthRole",
+            "StackName": "amplify-realtime-master-163033",
+            "StackId": "arn:aws:cloudformation:us-east-2:733205283608:stack/amplify-realtime-master-163033/98da41d0-7fff-11ea-8110-060a55e3d44e",
+            "AmplifyAppId": "d1c2g8pejzejrw"
+        }
+    }
+}
