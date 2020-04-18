@@ -300,7 +300,7 @@ class App extends Component {
                     {this.state.poster && (<img className="img-fluid rounded align-middle p-2" src={this.state.poster} alt="Poster"/>)}
                   </div>
                 </div>
-                {/*<div className="col-md-4 p-1 card-body">
+                <div className="col-md-4 p-1 card-body">
                   <div className="mx-auto bg-light rounded col-height">
                       <table className="table table-borderless bg-dark text-white rounded">
                       <tbody>
@@ -334,7 +334,7 @@ class App extends Component {
                       </table>
                     </div>
                   </div>
-                </div> */}
+                </div>
                 <div className="col-md-4 p-1 card-body">
                   <div className="mx-auto bg-light rounded col-height">
                   {this.state.user ? 
@@ -394,7 +394,7 @@ class App extends Component {
           </div>
         </div>
         <br/>
-        {/* <table className="table table-striped">
+        <table className="table table-striped">
           <thead className="thead-dark">
             <tr>
               <th className="bg-white text-dark text-center text-uppercase border-top-0"><strong><h4>Leaderboard</h4></strong></th>
@@ -429,7 +429,7 @@ class App extends Component {
               <td className="text-center">{this.state.topHate}</td>
             </tr>
           </tbody>
-        </table>*/}
+        </table>
       </div>
     );
   }
